@@ -10,7 +10,7 @@
     }
 
     function removeStyle(elem) {
-        $(elem).removeAttr("style")
+        $(elem).removeAttr("style");
     }
 
     function bindShow(elem) {
@@ -50,7 +50,7 @@
     };
 
     $.fn.scrollShow.options = {
-        css: { "position": "fixed", "height": "15%", "bottom": "5", "left": "50%"},
+        css: { "position": "fixed", "height": "15%", "bottom": "0", "top": "auto", "left": "50%" },
         showCallback: null,
         hideCallback: null,
         offCallback: function() {
